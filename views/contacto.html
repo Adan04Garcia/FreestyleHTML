@@ -1,0 +1,81 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Contacto</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <header>
+        <ul>
+            <li><a href="../index.html">Inicio</a></li>
+            <li><a href="views/tematica.html">Tematica</a></li>
+            <li><a href="views/competencias.html">Competencias</a></li>
+            <li><a href="views/eventos.html">Eventos Internacionales</a></li>
+            <li><a href="views/destacados.html">Freestyler Mas Destacados</a></li>
+            <li><a href="views/nosotros.html">Nosotros</a></li>
+            <li><a href="views/contacto.html">Contacto</a></li>
+        </ul>
+    </header>
+    <main>
+        <p>
+            Si tienes alguna sugerencia para poder mejorar nuestra pagina o si te gustaria que agreguemos algo en especifico
+            puedes usar el siguiente formulario:</p>
+
+        <h1>Formulario</h1>
+
+        <form>
+
+            <label>Nombre</label>
+            <br>
+            <input type="text" id="txtNombre" required>
+            <br>
+            <br>
+
+            <label>Correo</label>
+            <br>
+            <input type="email" id="txtCorreo" required placeholder="nombre@email.com">
+            <br>
+            <br>
+
+            <label>Asunto:</label>
+            <br>
+            <select id="slAsunto">
+                <option value="COMENTARIO">Comentario</option>
+                <option value="COMPETENCIAS">Competencias</option>
+                <option value="EVENTOS INTERNACIONALES">Eventos Internacionales</option>
+                <option value="FREESTYLERS MAS DESTACADOS">Freestyler Mas Destacados</option>
+                <option value="FMS">FMS</option>
+                <option value="SUGERENCIA">Sugerencia</option>
+
+
+            </select>
+            <br>
+            <br>
+            <br />
+            <br />
+
+            <label>Mensaje:</label>
+            <br>
+            <textarea id="txtMensaje" rows="5" cols="70"></textarea>
+            <br>
+            <br>
+
+            <!--<input type="submit" value="Enviar">-->
+            <button type="submit">Enviar</button>
+
+        </form>
+    </main>
+    <br />
+    <br />
+    <footer>
+        Mundo Freestyle  &copy; 2024 Derechos reservados
+    </footer>
+
+
+    <!-- direccionamiento
+    <br>
+    <a href="../index.html">Regresar al inicio</a> -->
+</body>
+</html>
